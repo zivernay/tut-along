@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+li {
+
+    list-style: none;
+    height: 40vh;
+    flex-grow: 1;
+    border: 3px solid yellow;
+}
+
+li:nth-child(odd) {
+    border: 3px solid red;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: baseline;
+    object-fit: fill;
+    
+}
+li:last-child {
+    flex-grow: 10;
+}
